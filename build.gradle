@@ -69,12 +69,12 @@ dependencies {
     compile "org.apache.commons:commons-csv:1.2"
 
     // Testing stuff, hamcrest comes first please
-    testCompile 'org.hamcrest:hamcrest-all:1.+'
-    testCompile 'org.testng:testng:6.+'
-    testCompile 'commons-collections:commons-collections:3.+'
+    testCompile 'org.hamcrest:hamcrest-all:1.0'
+    testCompile 'org.testng:testng:6.0'
+    testCompile 'commons-collections:commons-collections:3.0'
 
     // JACKSON for JSONification
-    def jacksonVersion = '2.+'
+    def jacksonVersion = '2.5.5'
     compile "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}"
     compile "com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}"
     compile "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
@@ -84,7 +84,7 @@ dependencies {
 
 
     //This JSON Hamcrest Matcher is pretty useful (https://github.com/hertzsprung/hamcrest-json)
-    testCompile 'uk.co.datumedge:hamcrest-json:0.+'
+    testCompile 'uk.co.datumedge:hamcrest-json:0.1'
 }
 
 
