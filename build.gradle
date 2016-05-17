@@ -9,6 +9,7 @@ apply plugin: 'java'
 
 version='4.1.0'
 group = 'net.logstash.log4j2'
+sourceCompatibility = 1.7
 
 buildscript {
     dependencies {
